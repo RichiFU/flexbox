@@ -169,7 +169,7 @@ body {
 }
 
 .suscribe {
-    padding: 3rem 1rem;
+    padding: 5rem 1rem;
     display: flex;
     justify-content: center;
 }
@@ -202,4 +202,25 @@ body {
 .suscribe-button {
     color: white;
     padding: 2rem 6rem;
+}
+
+.suscribe-button button {
+    background-color: inherit;
+    /* azul */
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    color: white;
+    padding: 0.5rem 2.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.footer {
+    padding: 3rem 1rem;
+    text-align: center;
+    background-color: #1f2937;
+}
+
+.footer p {
+    color: white;
 }
